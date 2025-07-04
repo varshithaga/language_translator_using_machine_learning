@@ -4,17 +4,11 @@ This is a Neural Machine Translation (NMT) project that translates English sente
 ## 🚀 Features
 <pre>
 ✅ Translates English to French using a trained LSTM model
-
 🧑‍💻 GUI built with Tkinter
-
 🧏‍♂️ Text-to-Speech for both English and French outputs using pyttsx3
-
 🎤 Speech-to-Text input using speech_recognition and Google Speech API
-
 📊 Displays training accuracy and confusion matrix
-
 💾 Model is saved and reused from .h5 file
-
 📦 Uses both English-Spanish and English-French parallel corpora (only 10 examples for demo)
 
 </pre>
@@ -22,25 +16,18 @@ This is a Neural Machine Translation (NMT) project that translates English sente
 ## 🛠️ Tech Stack
 <pre>
 Python
-
 TensorFlow / Keras
-
 NumPy, Pandas, Matplotlib, Seaborn
-
 Tkinter
-
 SpeechRecognition, pyttsx3, gTTS
 
 </pre>
 ## 📁 Dataset
 <pre>
 Used bilingual text files from:
-
 eng_fra.txt – English to French
-
 english to spanish.txt – Used for experimentation
 
-  
 </pre>
 
 
@@ -68,13 +55,9 @@ Input and output text boxes
 ### Buttons:
 
 Translate: Translates English to French
-
 🔊 (English/French): Reads the input/output aloud
-
 🎤: Converts speech to English text
-
 Reset: Clears the input box
-
 </pre>
 
 
@@ -82,12 +65,9 @@ Reset: Clears the input box
 <pre>
   
 ### 1. Install Requirements
-
 pip install numpy pandas keras tensorflow matplotlib seaborn pyttsx3 speechrecognition gTTS
-
 ### 2. Download Dataset
 Place eng_fra.txt and english to spanish.txt in your working directory.
-
 ### 3. Run the Program
 python code.py
 
