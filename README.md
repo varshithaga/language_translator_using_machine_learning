@@ -1,5 +1,5 @@
-### English to French Translator with Speech and GUI
-This is a Neural Machine Translation (NMT) project that translates English sentences to French using a Sequence-to-Sequence (Seq2Seq) model with LSTM layers. It includes a Tkinter GUI, text-to-speech (TTS), and speech-to-text (STT) functionalities for user interaction.
+# Translator with Speech and GUI
+This is a Neural Machine Translation (NMT) project that translates English sentences to French,Spanish using a Sequence-to-Sequence (Seq2Seq) model with LSTM layers. It includes a Tkinter GUI, text-to-speech (TTS), and speech-to-text (STT) functionalities for user interaction.
 
 ## 🚀 Features
 <pre>
@@ -62,9 +62,10 @@ Optimizer: RMSprop or Adam
 
 
 ## 🖥️ GUI Features (Tkinter)
+<pre>
 Input and output text boxes
 
-# Buttons:
+### Buttons:
 
 Translate: Translates English to French
 
@@ -74,17 +75,19 @@ Translate: Translates English to French
 
 Reset: Clears the input box
 
+</pre>
+
 
 ## 🧪 How to Run
 
-# 1. Install Requirements
+### 1. Install Requirements
 
 pip install numpy pandas keras tensorflow matplotlib seaborn pyttsx3 speechrecognition gTTS
 
-# 2. Download Dataset
+### 2. Download Dataset
 Place eng_fra.txt and english to spanish.txt in your working directory.
 
-# 3. Run the Program
+### 3. Run the Program
 python code.py
 
 ## 📈 Evaluation
