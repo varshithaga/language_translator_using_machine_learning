@@ -45,25 +45,21 @@ english to spanish.txt – Used for experimentation
 
 
 ## 🧠 Model Architecture
-<pre>
-### Encoder:
 
-2 stacked LSTM layers
+```text
+Encoder:
+- 2 stacked LSTM layers
+- Input: One-hot encoded English characters
 
-Input: One-hot encoded English characters
-
-### Decoder:
-
-2 stacked LSTM layers
-
-Dense layer with softmax activation for output characters
-
-Teacher forcing used during training
+Decoder:
+- 2 stacked LSTM layers
+- Dense layer with softmax activation for output characters
+- Teacher forcing used during training
 
 Loss Function: Categorical Crossentropy
-
 Optimizer: RMSprop or Adam
-</pre>
+```
+
 
 ## 🖥️ GUI Features (Tkinter)
 <pre>
