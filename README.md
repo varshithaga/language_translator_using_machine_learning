@@ -83,7 +83,8 @@ Reset: Clears the input box
 
 
 ## 🧪 How to Run
-
+<pre>
+  
 ### 1. Install Requirements
 
 pip install numpy pandas keras tensorflow matplotlib seaborn pyttsx3 speechrecognition gTTS
@@ -94,8 +95,12 @@ Place eng_fra.txt and english to spanish.txt in your working directory.
 ### 3. Run the Program
 python code.py
 
+</pre>
+
 ## 📈 Evaluation
-Shows accuracy and confusion matrix using matplotlib and seaborn.
+
+<pre>Shows accuracy and confusion matrix using matplotlib and seaborn.
+</pre>
 
 
 
