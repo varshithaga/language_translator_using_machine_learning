@@ -33,15 +33,19 @@ SpeechRecognition, pyttsx3, gTTS
 
 </pre>
 ## 📁 Dataset
+<pre>
 Used bilingual text files from:
 
 eng_fra.txt – English to French
 
 english to spanish.txt – Used for experimentation
 
+  
+</pre>
 
 
 ## 🧠 Model Architecture
+<pre>
 ### Encoder:
 
 2 stacked LSTM layers
@@ -59,7 +63,7 @@ Teacher forcing used during training
 Loss Function: Categorical Crossentropy
 
 Optimizer: RMSprop or Adam
-
+</pre>
 
 ## 🖥️ GUI Features (Tkinter)
 <pre>
