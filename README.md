@@ -20,6 +20,7 @@ This is a Neural Machine Translation (NMT) project that translates English sente
 </pre>
 
 ## 🛠️ Tech Stack
+<pre>
 Python
 
 TensorFlow / Keras
@@ -30,8 +31,7 @@ Tkinter
 
 SpeechRecognition, pyttsx3, gTTS
 
-
-
+</pre>
 ## 📁 Dataset
 Used bilingual text files from:
 
@@ -42,13 +42,13 @@ english to spanish.txt – Used for experimentation
 
 
 ## 🧠 Model Architecture
-# Encoder:
+### Encoder:
 
 2 stacked LSTM layers
 
 Input: One-hot encoded English characters
 
-# Decoder:
+### Decoder:
 
 2 stacked LSTM layers
 
